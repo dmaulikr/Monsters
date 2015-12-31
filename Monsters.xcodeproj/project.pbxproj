@@ -12,6 +12,9 @@
 		0D6A48C21C3413A40023964D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6A48C01C3413A40023964D /* Main.storyboard */; };
 		0D6A48C41C3413A40023964D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6A48C31C3413A40023964D /* Assets.xcassets */; };
 		0D6A48C71C3413A40023964D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6A48C51C3413A40023964D /* LaunchScreen.storyboard */; };
+		0D6A48D11C3413F40023964D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A48D01C3413F40023964D /* Character.swift */; };
+		0D6A48D31C3417FC0023964D /* Solider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A48D21C3417FC0023964D /* Solider.swift */; };
+		0D6A48D71C34491E0023964D /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6A48D61C34491E0023964D /* Orc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0D6A48C31C3413A40023964D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D6A48C61C3413A40023964D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D6A48C81C3413A40023964D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D6A48D01C3413F40023964D /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		0D6A48D21C3417FC0023964D /* Solider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solider.swift; sourceTree = "<group>"; };
+		0D6A48D61C34491E0023964D /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				0D6A48C31C3413A40023964D /* Assets.xcassets */,
 				0D6A48C51C3413A40023964D /* LaunchScreen.storyboard */,
 				0D6A48C81C3413A40023964D /* Info.plist */,
+				0D6A48D01C3413F40023964D /* Character.swift */,
+				0D6A48D61C34491E0023964D /* Orc.swift */,
+				0D6A48D21C3417FC0023964D /* Solider.swift */,
 			);
 			path = Monsters;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D6A48D11C3413F40023964D /* Character.swift in Sources */,
 				0D6A48BF1C3413A40023964D /* ViewController.swift in Sources */,
+				0D6A48D31C3417FC0023964D /* Solider.swift in Sources */,
+				0D6A48D71C34491E0023964D /* Orc.swift in Sources */,
 				0D6A48BD1C3413A40023964D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
